@@ -1,8 +1,8 @@
-#WHAT
+# WHAT
 REST interface to consume data-snapshots from one client, validate
 and persist data in storage, distribute persisted data to other clients via REST interface.
 
-###File structure
+### File structure
 - First line of file will contain header:
 PRIMARY_KEY,NAME,DESCRIPTION,UPDATED_TIMESTAMP
 - Last line of file always to be empty
@@ -11,7 +11,7 @@ persisted
     
 *UPDATED_TIMESTAMP is expected to be received as timestamp in milliseconds: 1593505253000
 
-###API
+### API
 
 #### POST /data
     file: MultipartFile *required
